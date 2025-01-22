@@ -1,0 +1,40 @@
+/************************************************************************
+
+Copyright 2010-2011 - Maven Silicon Softech Pvt.Ltd. All Rights Reserved.This source code is an unpublished work belongs to Aceic Design Technologies Pvt Ltd.It is considered a trade secret and is not to be divulged or used by parties who have not received written authorization from Maven Silicon Softech Pvt.Ltd.
+
+
+Maven Silicon Softech Pvt.Ltd.
+Bangalore - 560076
+
+Webpage: www.maven-silicon.com
+
+Filename:	top.sv   
+
+Version:	1.0
+
+************************************************************************/
+
+
+
+
+module top;
+  
+     //import ram_pkg.sv
+        import ram_pkg::*;
+
+     // import the UVM package
+   	import uvm_pkg::*;
+
+     // include the uvm_macros.svh
+	`include "uvm_macros.svh"
+
+     //Within initial block call run_test("ram_wr_test")
+	initial
+	begin
+	run_test("ram_wr_test");
+	end
+
+
+  
+endmodule : top
+
