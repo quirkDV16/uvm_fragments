@@ -1,0 +1,51 @@
+UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test ext_test...
+# UVM_INFO my_test.sv(34) @ 0: uvm_test_top [my_test] THIS IS BUILD PHASE IN TEST
+# UVM_INFO my_env.sv(25) @ 0: uvm_test_top.env_h [my_env] THIS IS BUILD PHASE IN ENV
+# UVM_INFO my_agent.sv(27) @ 0: uvm_test_top.env_h.agt_h [my_agent] THIS IS BUILD PHASE IN AGENT
+# UVM_INFO my_env.sv(34) @ 0: uvm_test_top.env_h [my_env] THIS IS RUN PHASE IN ENV
+# UVM_INFO my_agent.sv(42) @ 0: uvm_test_top.env_h.agt_h [my_agent] THIS IS RUN PHASE IN AGENT
+#                    0 - Waiting to receive ctrl_agt
+# TEST_CLASS ::: control_reg value == 00000000000000000011101100000001 ::: 15105
+#                  100 - Received ctrl_agt value
+# AGTH_CLASS ::: control_reg value == 00000000000000000011101100000001 ::: 15105
+# 
+#                  100 - Waiting to receive ctrl_agt
+# TEST_CLASS ::: control_reg value == 00000000000000000011101100000000 ::: 15104
+#                  200 - Received ctrl_agt value
+# AGTH_CLASS ::: control_reg value == 00000000000000000011101100000000 ::: 15104
+# 
+#                  200 - Waiting to receive ctrl_agt
+# TEST_CLASS ::: control_reg value == 00000000000000000011101100000111 ::: 15111
+#                  300 - Received ctrl_agt value
+# AGTH_CLASS ::: control_reg value == 00000000000000000011101100000111 ::: 15111
+# 
+#                  300 - Waiting to receive ctrl_agt
+# TEST_CLASS ::: control_reg value == 00000000000000000011101100000010 ::: 15106
+#                  400 - Received ctrl_agt value
+# AGTH_CLASS ::: control_reg value == 00000000000000000011101100000010 ::: 15106
+# 
+#                  400 - Waiting to receive ctrl_agt
+# TEST_CLASS ::: control_reg value == 00000000000000000011101100000110 ::: 15110
+#                  500 - Received ctrl_agt value
+# AGTH_CLASS ::: control_reg value == 00000000000000000011101100000110 ::: 15110
+# 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 500: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    9
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [my_agent]     2
+# [my_env]     2
+# [my_test]     1
+# ** Note: $finish    : /home/cad/eda/Questa_2019/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+
