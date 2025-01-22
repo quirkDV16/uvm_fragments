@@ -1,0 +1,9 @@
+Start time: 15:24:38 on Jan 03,2024
+qverilog "+incdir+/home/cad/eda/Questa_2019/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_pkg.sv" "+incdir+." top.sv -R "+UVM_TESTNAME=my_test" 
+** Note: (qverilog-2286) top.sv(3): Using implicit +incdir+/home/cad/eda/Questa_2019/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: (qverilog-13069) ** while parsing file included at top.sv(5)
+** at my_env.sv(17): near "compo": syntax error, unexpected IDENTIFIER, expecting "'{".
+** Error: ** while parsing file included at top.sv(5)
+** at my_env.sv(18): (qverilog-2730) Undefined variable: 'compo'.
+End time: 15:24:39 on Jan 03,2024, Elapsed time: 0:00:01
+Errors: 2, Warnings: 0

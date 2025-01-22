@@ -1,0 +1,228 @@
+Command: /home/BRN22/SKaRthik/kar_2316/CODE_FRAGMENTS_UVM/factory/override_cmd_line/./simv -a reult2.log +ntb_random_seed_automatic +UVM_TESTNAME=test
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP1_Full64; Runtime version T-2022.06-SP1_Full64;  Feb 26 10:20 2024
+NOTE: automatic random seed used: 524094
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO @ 0: uvm_test_top [uvm_test_top] TEST set_inst_override_by_name
+
+#### Factory Configuration (*)
+
+Instance Overrides:
+
+  Requested Type  Override Path        Override Type
+  --------------  -------------------  -------------
+  A               uvm_test_top.env.a3  A_override
+  B               path1.b1             B_ovr
+
+Type Overrides:
+
+  Requested Type  Override Type      
+  --------------  -------------------
+  A               A_ovr
+  B               B_override
+
+All types registered with the factory: 48 total
+(types without type names will not be printed)
+
+  Type Name
+  ---------
+  A
+  A_override
+  A_ovr
+  B
+  B_override
+  B_ovr
+  environment
+  snps_uvm_reg_bank_group
+  snps_uvm_reg_map
+  test
+(*) Types with no associated type name will be printed as <unknown>
+
+####
+
+UVM_INFO @ 0: uvm_test_top.env.a1 [uvm_test_top.env.a1] A new
+UVM_INFO @ 0: uvm_test_top.env.a1 [uvm_test_top.env.a1] A_ovr new
+UVM_INFO @ 0: uvm_test_top.env.a2 [uvm_test_top.env.a2] A new
+UVM_INFO @ 0: uvm_test_top.env.a2 [uvm_test_top.env.a2] A_ovr new
+UVM_INFO @ 0: uvm_test_top.env.a3 [uvm_test_top.env.a3] A new
+UVM_INFO @ 0: uvm_test_top.env.a3 [uvm_test_top.env.a3] A_override new
+UVM_INFO @ 0: reporter@@B_ovr [B_ovr] B new
+UVM_INFO @ 0: reporter@@B_ovr [B_ovr] B_ovr new
+UVM_INFO @ 0: reporter@@B_override [B_override] B new
+UVM_INFO @ 0: reporter@@B_override [B_override] B_ovr new
+UVM_INFO @ 0: reporter@@B_override [B_override] B_override new
+UVM_INFO @ 0: reporter@@B_override [B_override] B new
+UVM_INFO @ 0: reporter@@B_override [B_override] B_ovr new
+UVM_INFO @ 0: reporter@@B_override [B_override] B_override new
+UVM_INFO @ 0: uvm_test_top.env.a1 [uvm_test_top.env.a1] HELLO from override class 'A_ovr'
+UVM_INFO @ 0: uvm_test_top.env.a2 [uvm_test_top.env.a2] HELLO from override class 'A_ovr'
+UVM_INFO @ 0: uvm_test_top.env.a3 [uvm_test_top.env.a3] HELLO from override class 'A_override'
+UVM_INFO @ 0: reporter@@B_ovr [b1] HELLO from override class 'B_ovr'
+UVM_INFO @ 0: reporter@@B_override [b2] HELLO from override class 'B_override'
+UVM_INFO @ 0: reporter@@B_override [b3] HELLO from override class 'B_override'
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------
+Name          Type         Size  Value
+--------------------------------------
+uvm_test_top  test         -     @456 
+  env         environment  -     @464 
+    a1        A_ovr        -     @472 
+    a2        A_ovr        -     @480 
+    a3        A_override   -     @488 
+--------------------------------------
+
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   23
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[B_override]     6
+[B_ovr]     2
+[RNTST]     1
+[UVMTOP]     1
+[b1]     1
+[b2]     1
+[b3]     1
+[uvm_test_top]     1
+[uvm_test_top.env.a1]     3
+[uvm_test_top.env.a2]     3
+[uvm_test_top.env.a3]     3
+$finish called from file "/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.580 seconds;       Data structure size:   0.5Mb
+Mon Feb 26 10:20:51 2024
+Command: /home/BRN22/SKaRthik/kar_2316/CODE_FRAGMENTS_UVM/factory/override_cmd_line/./simv -a reult2.log +ntb_random_seed_automatic +UVM_TESTNAME=test +uvm_set_inst_override=A,A_override,uvm_test_top.env.a3
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP1_Full64; Runtime version T-2022.06-SP1_Full64;  Feb 26 11:04 2024
+NOTE: automatic random seed used: 2147737266
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO @ 0: reporter [INSTOVR] Applying instance override from the command line: +uvm_set_inst_override=A,A_override,uvm_test_top.env.a3
+UVM_INFO @ 0: uvm_test_top [uvm_test_top] TEST set_inst_override_by_name
+
+#### Factory Configuration (*)
+
+Instance Overrides:
+
+  Requested Type  Override Path        Override Type
+  --------------  -------------------  -------------
+  A               uvm_test_top.env.a3  A_override
+
+No type overrides are registered with this factory
+
+All types registered with the factory: 48 total
+(types without type names will not be printed)
+
+  Type Name
+  ---------
+  A
+  A_override
+  A_ovr
+  B
+  B_override
+  B_ovr
+  environment
+  snps_uvm_reg_bank_group
+  snps_uvm_reg_map
+  test
+(*) Types with no associated type name will be printed as <unknown>
+
+####
+
+UVM_INFO @ 0: uvm_test_top.env.a1 [uvm_test_top.env.a1] A new
+UVM_INFO @ 0: uvm_test_top.env.a2 [uvm_test_top.env.a2] A new
+UVM_INFO @ 0: uvm_test_top.env.a3 [uvm_test_top.env.a3] A new
+UVM_INFO @ 0: uvm_test_top.env.a3 [uvm_test_top.env.a3] A_override new
+UVM_INFO @ 0: reporter@@B [B] B new
+UVM_INFO @ 0: reporter@@B [B] B new
+UVM_INFO @ 0: reporter@@B [B] B new
+UVM_INFO @ 0: uvm_test_top.env.a1 [uvm_test_top.env.a1] HELLO from Original class 'A'
+UVM_INFO @ 0: uvm_test_top.env.a2 [uvm_test_top.env.a2] HELLO from Original class 'A'
+UVM_INFO @ 0: uvm_test_top.env.a3 [uvm_test_top.env.a3] HELLO from override class 'A_override'
+UVM_INFO @ 0: reporter@@B [b1] HELLO from Original class 'B'
+UVM_INFO @ 0: reporter@@B [b2] HELLO from Original class 'B'
+UVM_INFO @ 0: reporter@@B [b3] HELLO from Original class 'B'
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------
+Name          Type         Size  Value
+--------------------------------------
+uvm_test_top  test         -     @456 
+  env         environment  -     @464 
+    a1        A            -     @472 
+    a2        A            -     @480 
+    a3        A_override   -     @488 
+--------------------------------------
+
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   17
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[B]     3
+[INSTOVR]     1
+[RNTST]     1
+[UVMTOP]     1
+[b1]     1
+[b2]     1
+[b3]     1
+[uvm_test_top]     1
+[uvm_test_top.env.a1]     2
+[uvm_test_top.env.a2]     2
+[uvm_test_top.env.a3]     3
+$finish called from file "/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.670 seconds;       Data structure size:   0.5Mb
+Mon Feb 26 11:05:14 2024
