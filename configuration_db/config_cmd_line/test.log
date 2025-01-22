@@ -1,0 +1,60 @@
+Command: /home/BRN22/SKaRthik/kar_2316/CODE_FRAGMENTS_UVM/config_db/config_cmd_line/./simv -a test.log +ntb_random_seed_automatic +uvm_set_config_int=*,int,8
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP1_Full64; Runtime version T-2022.06-SP1_Full64;  Feb 29 17:27 2024
+NOTE: automatic random seed used: 2800547719
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_INFO @ 0: reporter [UVM_CMDLINE_PROC] Applying config setting from the command line: +uvm_set_config_int=*,int,8
+UVM_INFO @ 0: uvm_test_top [my_test] THIS IS BUILD PHASE IN TEST
+UVM_INFO @ 0: uvm_test_top.env_h [my_env] THIS IS BUILD PHASE IN ENV
+
+---value in agent dut handle---           8
+
+
+=== resource pool ===
+int [/^.*$/] : (uvm_bitstream_t) 8
+-  
+  --------
+   reads: 0 @ 0  writes: 1 @ 0
+  uvm_test_top.env_h.agt_h reads: 1 @ 0  writes: 0 @ 0
+ 
+=== end of resource pool ===
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    4
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[UVM_CMDLINE_PROC]     1
+[my_env]     1
+[my_test]     1
+$finish called from file "/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.660 seconds;       Data structure size:   0.5Mb
+Thu Feb 29 17:27:24 2024
